@@ -1,0 +1,89 @@
+name: proyectemos_prof
+description: A project for teachers
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  
+  #Google icon
+  font_awesome_flutter: ^10.1.0
+
+  #Firebase
+  firebase_core: ^2.14.0
+  cloud_firestore: ^4.8.2
+
+  #Responsividade
+  flutter_screenutil: ^5.7.0
+
+  #Authentication
+  firebase_auth: ^4.6.3
+  google_sign_in: ^6.1.4
+
+  #State management 
+  provider: ^6.0.5
+  path_provider: ^2.0.11
+
+  #Data
+  shared_preferences: ^2.0.15
+  firebase_storage: ^11.2.4
+
+  carousel_slider: ^4.2.1
+
+  flutter_side_menu: ^0.4.0
+
+  #Picker
+  image_picker: ^1.0.0
+  file_picker: ^5.2.5
+  image: ^4.0.17
+
+  #Toast
+  fluttertoast: ^8.0.9
+
+  #Email
+  mailer: ^6.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+    #Lint
+  flutterando_analysis: ^0.0.2
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-Regular.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-Light.ttf
+          weight: 400
+
+    - family: Montserrat  
+      fonts:
+        - asset: assets/fonts/Montserrat-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Montserrat-Medium.ttf
+          weight: 600
+        - asset: assets/fonts/Montserrat-Regular.ttf
+          weight: 500
+        - asset: assets/fonts/Montserrat-Light.ttf
+          weight: 400
